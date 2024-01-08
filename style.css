@@ -1,0 +1,32 @@
+div{
+    background: crimson;
+}
+.titulo{
+    color: white;
+}
+#color{
+    color:salmon
+}
+a[href="https://www.youtube.com/watch?v=76jARSWqcdM&ab_channel=KrewellaMusicVEVO"]{
+    color: white;
+}
+div h2{
+    height: 100px;
+    width: 100px;
+    color: #e424ba;
+}
+div > div {
+    color: turquoise;
+}
+.anios{
+    background-color: rgb(133, 16, 127);
+}
+div + section{
+   border-radius: 0%;
+   background: cyan;
+}
+div ~ p{
+    font-size: larger;
+    color: blueviolet;
+    background-color: aquamarine;
+}
