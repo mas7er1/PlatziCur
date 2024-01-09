@@ -5,3 +5,38 @@ p:hover{
     color: purple;
     cursor: pointer;
 }
+p::first-letter{
+    color: aquamarine;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  
+  nav ul li::after {
+    content: "|";
+    margin: 1rem;
+    color: red;
+  }
+h2::before{
+    content: "*";
+    color: rebeccapurple;
+}
+div p:nth-child(1){
+    color: red
+}
+a {
+    font-size: 3rem;
+  }
+  
+  a:link {
+    color: red;
+  }
+  div:not(.negro) {
+    color: blue;
+  }
+  ::placeholder{
+    color: darkblue;
+  }
