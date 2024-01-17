@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+  }
+  
+  .nivel1 {
+    /* Puedes cambiar este valor */
+    font-size: 20px;
+  }
+  
+  .nivel2 {
+    /* tamaño = 20px * 1 = 20px */
+    font-size: 1em;
+  }
+  
+  .nivel3 {
+    /* tamaño = 20px * 2 = 40px */
+    font-size: 2em;
+  }
+  
+  .nivel4 {
+    /* tamaño = 40px * 2 = 80px */
+    font-size: 2em;
+  }
+  
+  
+  

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .card1{
+    width: 100%;
+    height: 25%;
+    background-color: brown;
+  }
+  
+  .card2 {
+    width: 50%;
+    height: 75%;
+    background-color: chartreuse;
+  }
+  
+  @media (min-width: 500px){
+    .card1 {
+        background-color: chartreuse;
+    }
+  
+    .card2 {
+      background-color: brown;
+    }
+  }
+  
+  
